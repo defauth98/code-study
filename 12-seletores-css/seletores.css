@@ -1,0 +1,28 @@
+/* Seletor de descendência */
+li a {
+text-decoration: none;
+}
+
+/* Seletor adjacente */
+ul + p {
+ color: red;
+}
+
+/* Filho (Primeiro elemento */
+div#container > ul {
+border: 1px solid black;
+}
+
+/* Irmãos */
+ul ~ p {
+ color: red;
+}
+
+/* Atributo */
+a[title] {
+ color: green;
+}
+
+/* Bonus */
+a:link { color: red; }
+a:visted { color: purple; }
